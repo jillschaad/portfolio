@@ -1,0 +1,305 @@
+@font-face {
+    font-family: oliveregular;
+    src: url(assets/olive.ttf),
+         url(assets/olive-webfont.woff);
+
+}
+@font-face {
+    font-family: mermaid;
+    src: url(assets/Mermaid1001.ttf);
+
+}
+
+html, body {
+    background-color: #F6F6F8 !important;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+.parallax-one {
+    
+    background-image: url('assets/background.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right:-3vh;
+}
+
+.parallax-two {
+    
+    background-image: url(assets/photo-1461749280684-dccba630e2f6.jpeg);
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    position: relative;
+    margin: -10vh -30vh 10vh -30vh;  
+}
+
+.parallax-three {
+    background-image: url(assets/photo-1461749280684-dccba630e2f6.jpeg);
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    position: relative;
+    margin: 3vh -30vh -2vh -30vh;
+    text-align:center;
+}
+
+
+.heading {
+    top: 0px;
+    position: absolute;
+    margin-top: 45vh;
+    color: #e8e4d8;
+    
+}
+
+.name1 {
+    font-family: oliveregular;
+    color: #F6F6F8;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4rem;
+    padding-left: 240px;
+   
+
+    
+}
+
+.name2 {
+    font-family: oliveregular;
+    color: #F6F6F8;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4rem;
+    margin-left: 24rem;
+    margin-top:-10vh;
+    padding-left: 130px;
+   
+}
+
+.name3 {
+    font-family: oliveregular;
+    color: #764D6E;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4rem;
+    margin-top:-6vh;
+    padding-left: 240px;
+    
+    
+  
+}
+
+.name4 {
+    font-family: oliveregular;
+    color: #764D6E;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4rem;
+    margin-left: 24rem;
+    margin-top:-10vh;
+    padding-left: 130px;
+    
+
+}
+   
+.tag {
+    font-size: 1.3rem;
+    font-family: mermaid;
+    margin-top:3rem;
+    margin-left: 14rem;
+    color: #F6F6F8;
+}
+
+.shortcuts {
+
+    margin-right:60vh;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: mermaid;
+    background-color: #F6F6F8;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    padding: 0 60vh 0 60vh;
+    z-index:3;
+
+}
+
+
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.shortcut {
+
+    height: 4vw;
+    text-align: center;
+    line-height: 1vw;
+    color: #764D6E;
+    
+}
+
+
+
+.shortcut-text {
+    padding-top: 1vw;
+    
+}
+
+.shortcut-text > p {
+    margin-top: 1vh;
+    
+
+}
+
+.about {
+    margin: 0vh 0vh 10vh -10vh;
+    width: 60%;
+    padding-top: 8vh;
+    font-family: mermaid;
+    
+}
+.resume-about {
+    margin: -2.3vh 0 0 4vh;
+    color: #332C31;
+}
+.links > a {
+    color: black;
+    margin-right: 3vw;
+}
+
+.download-resume {
+    margin:-3.75vh 48vh 0 13vh;
+    padding-left:6px;
+}
+
+.download-resume-2 {
+    margin: -4vh 0 0 11vh;
+}
+
+.about > h3 {
+
+    font-size: 4rem;
+}
+
+.about > p {
+
+    font-size: 1.5rem;
+}
+
+.skills {
+    padding: 8vh 5vh 2vh 6vh;
+    margin: -49.1vh -10vh 10vh 60vh;
+    font-family: mermaid;
+    color: #F6F6F8;
+    background-color: #764D6E;
+}
+
+.skills > h3 {
+    font-size: 4rem;
+    
+}
+.skill-item> h4 {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.skill-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5vh;
+}
+
+.skill-item {
+    margin-top: 5vh;
+    font-size: 1.5rem;
+}
+
+.projects > h3 {
+    font-size: 4rem;
+    
+}
+
+.portfolio {
+    margin: -15vh -10vh 10vh -10vh;
+    padding-top: 8vh;
+    font-family: mermaid;
+    
+}
+
+.portfolio > h3 {
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+.card-title {
+    color: #764D6E;
+}
+
+.download {
+
+    margin-left: 33vh;
+}
+
+.download2 {
+    margin: -4.9vh 0 0 18vh;
+    text-align: center;
+}
+
+.game-download {
+    color: #332C31;
+    line-height:90%;
+}
+
+.contact {
+    opacity: 1;
+    margin-top: 5vh;
+    padding-bottom: 8vh;
+    text-align: center;
+    font-family: mermaid;
+}
+
+.contact > h3{
+    font-size: 4rem;
+    background-color: #764D6E;
+    color: #F6F6F8;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    padding-top: 1vh;
+}
+
+.shortcutsFOOTER {
+
+    bottom:0;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: mermaid;
+    background-color: #332C31;
+
+    position: fixed;
+    width: 100%;
+    padding: 0 60vh 0 60vh;
+
+}
+
+.shortcutFOOTER {
+
+    height: 2vw;
+    text-align: center;
+    line-height: 0px;
+    margin-bottom:20px;
+    color: #F6F6F8;
+}
